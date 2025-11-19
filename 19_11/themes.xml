@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._19_11" parent="Theme.AppCompat.Dialog.MinWidth">
+        <!--<style name="Base.Theme._19_11" parent="Theme.Material3.DynamicColors.Light">-->
+        <!--<style name="Base.Theme._19_11" parent="Theme.Material3.Dark.Dialog">-->
+        <!--<style name="Base.Theme._19_11" parent="Theme.Design.Light">-->
+        <!--<style name="Base.Theme._19_11" parent="Theme.AppCompat.DayNight">-->
+        <!--<style name="Base.Theme._19_11" parent="Theme.AppCompat.Light.DarkActionBar">-->
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme._19_11" parent="Base.Theme._19_11" />
+</resources>
