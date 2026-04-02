@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">18_03</string>
+    <string name="wizyta">Wizyta u weterynarza</string>
+    <string name="imie">Imię i nazwisko właściciela...</string>
+    <string name="gatunek">Gatunek</string>
+    <string name="lata">Ile ma lat?</string>
+    <string name="_0">0</string>
+    <string name="cel">Cel wizyty</string>
+    <string name="ok">OK</string>
+    <string-array name="zwierzeta">
+        <item>Pies</item>
+        <item>Kot</item>
+        <item>Świnka morska</item>
+    </string-array>
+</resources>

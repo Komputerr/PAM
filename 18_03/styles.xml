@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mainLayout">
+        <item name="android:background">@color/LightGreen</item>
+    </style>
+    <style name="title">
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@color/SeaGreen</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="list">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
