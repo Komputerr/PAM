@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">15_04</string>
+    <string name="imie">Imię</string>
+    <string name="mail">Adres e-mail</string>
+    <string name="btn">zwiększ liczbę</string>
+    <string name="counter">Kliknąłeś przycisk 0 razy</string>
+</resources>
