@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#5F9EA0">
+
+    <TextView
+        android:id="@+id/lblKlucz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj wartość klucza"
+        android:textColor="#FAEBD7" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:id="@+id/txtKlucz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/lblTekst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podaj tekst"
+        android:textColor="#FAEBD7"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:id="@+id/txtTekst"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnZaszyfruj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zaszyfruj"
+        android:backgroundTint="#ADD8E6"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/lblZaszyfrowany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tekst zaszyfrowany"
+        android:textColor="#FAEBD7"/>
+
+    <TextView
+        android:id="@+id/txtZaszyfrowany"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:textColor="#F0F8FF" />
+
+</LinearLayout>
