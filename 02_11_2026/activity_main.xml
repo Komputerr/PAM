@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFF8DC">
+
+    <View
+        android:id="@+id/kolor"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/txtSuwaki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dobierz kolor suwakami i zapisz przyciskiem:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtR"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="R"
+            android:textAlignment="center"/>
+
+        <SeekBar
+            android:id="@+id/seekBarR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"
+            android:progress="255" />
+
+        <TextView
+            android:id="@+id/txtRVal"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtG"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:textAlignment="center"/>
+
+        <SeekBar
+            android:id="@+id/seekBarG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"
+            android:progress="255" />
+
+        <TextView
+            android:id="@+id/txtGVal"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtB"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textAlignment="center"/>
+
+        <SeekBar
+            android:id="@+id/seekBarB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"
+            android:progress="255" />
+
+        <TextView
+            android:id="@+id/txtBVal"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/btnPobierz"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:text="Pobierz"
+            android:backgroundTint="#CD853F"/>
+
+        <TextView
+            android:id="@+id/txtKolorZapis"
+            android:layout_width="600px"
+            android:layout_height="80px"
+            android:text="255, 255, 255"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
