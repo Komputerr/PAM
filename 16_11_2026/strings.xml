@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">egzamin_hasla</string>
+    <string-array name="stanowisko">
+        <item>Kierownik</item>
+        <item>Starszy programista</item>
+        <item>Młodszy programista</item>
+        <item>Tester</item>
+    </string-array>
+</resources>
