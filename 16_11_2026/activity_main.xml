@@ -13,7 +13,8 @@
         android:id="@+id/lblDane"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dane pracownika" />
+        android:text="Dane pracownika"
+        android:textSize="20dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -80,7 +81,9 @@
         android:id="@+id/lblGenerowanie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Generowanie hasła" />
+        android:text="Generowanie hasła"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
